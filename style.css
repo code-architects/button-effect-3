@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #233232;
+}
+button{
+    display: block;
+    padding: 8px 24px;
+    border:1px solid rgba(0,0,0,0.8);
+    background:linear-gradient(to right, #FFE600 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right top;
+    transition: 0.2s;
+}
+button:hover{
+    background-position: left bottom;
+}
